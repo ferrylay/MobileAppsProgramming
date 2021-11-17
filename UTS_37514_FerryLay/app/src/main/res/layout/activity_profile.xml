@@ -30,7 +30,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="00000037154"
+        android:text="00000037514"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:layout_gravity="center"
@@ -63,10 +63,21 @@
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="https://stackoverflow.com"
+                android:text="https://stackoverflow.com/"
                 android:textColor="@color/black"
                 android:gravity="center"
-                android:layout_marginTop="10dp"/>
+                android:autoLink="web"
+                android:layout_marginTop="10dp"
+                android:textColorLink="@color/blue"/>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="https://imagecolorpicker.com/en/"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:autoLink="web"
+                android:textColorLink="@color/blue"/>
             <TextView
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
@@ -74,7 +85,6 @@
                 android:text="Sound Image: Google"
                 android:gravity="center"
                 android:layout_marginTop="5dp"
-                android:autoLink="web"
                 android:textColorLink="@color/blue"/>
             <TextView
                 android:layout_width="250dp"
@@ -83,8 +93,8 @@
                 android:text="Modul 3,4,7"
                 android:gravity="center"
                 android:layout_marginTop="5dp"
-                android:autoLink="web"
                 android:textColorLink="@color/blue"/>
+
         </LinearLayout>
     </ScrollView>
 
